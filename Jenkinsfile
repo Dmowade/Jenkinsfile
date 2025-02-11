@@ -27,7 +27,6 @@ pipeline {
     stage('deploy') {
       steps {
         echo 'Hi Jenkins'
-        sleep 10
       }
     }
 
